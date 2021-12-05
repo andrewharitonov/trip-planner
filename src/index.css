@@ -1,0 +1,36 @@
+/*
+Add more variables below if needed.
+Accent colors have numeric gradation so that new color shades can be introduced
+*/
+:root {
+  --violet-500: #4e2870;
+  --violet-300: #9b51e0;
+  --gray-500: #333333;
+  --gray-400: #555555;
+  --gray-100: #dddddd;
+  --gray-50: #eeeeee;
+  --red-600: #bb0000;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: 168px 1fr 80px;
+}

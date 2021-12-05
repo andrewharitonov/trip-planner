@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--violet-500);
+  color: var(--white);
+  padding: 16px;
+
+  .title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 32px;
+  }
+}

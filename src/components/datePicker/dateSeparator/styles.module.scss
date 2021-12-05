@@ -1,0 +1,9 @@
+.dateSeparator {
+  width: 1px;
+  height: 40px;
+  background-color: var(--black);
+
+  &.disabled {
+    opacity: 0.1;
+  }
+}

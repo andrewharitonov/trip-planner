@@ -1,0 +1,14 @@
+.formField {
+  .label {
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  &.disabled .label {
+    opacity: 0.1;
+    pointer-events: none;
+  }
+}

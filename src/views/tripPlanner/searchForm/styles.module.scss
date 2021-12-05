@@ -1,0 +1,18 @@
+.searchForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 168px;
+
+  .locationFilterSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .searchForm {
+    margin: 0 16px;
+  }
+}

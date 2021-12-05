@@ -1,0 +1,23 @@
+.datePicker {
+  // CSS vars needed to calculate how many elements can fit the screen
+  --date-button-width: 95px;
+  --date-button-gap: 4px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: var(--date-button-gap);
+
+  .dateButton {
+    width: var(--date-button-width);
+  }
+}
+
+@media (max-width: 768px) {
+  .datePicker {
+    --date-button-width: 64px;
+
+    .dateButton {
+      width: var(--date-button-width);
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  // chevron
+  &:after {
+    pointer-events: none;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid;
+    margin-left: -30px;
+  }
+
+  &.disabled {
+    &:after {
+      opacity: 0.1;
+    }
+  }
+
+  .select {
+    border: var(--black) 1px solid;
+    border-radius: 8px;
+    padding: 16px 35px 16px 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    appearance: none;
+
+    &[disabled] {
+      opacity: 0.1;
+    }
+  }
+}

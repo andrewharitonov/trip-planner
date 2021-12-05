@@ -1,0 +1,6 @@
+.dateFilter {
+  // Even though we calculate amount of dates to display, the calculation is debounced for performance optimizations
+  // and layout shift happens. To avoid it, we can disable overflow for better UX
+  max-height: 72px;
+  overflow-y: hidden;
+}
