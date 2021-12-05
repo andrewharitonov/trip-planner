@@ -2,7 +2,7 @@
 
 ### General information
 This app was designed using React and TypeScript.  
-I left some comments as` "// TODO:"` in the code to explain my choice or how we can improve different things.  
+I left some comments in the code to explain my choice or how we can improve different things.  
 **My tips for improving the application (scalability/accessibility/optimizations) can be found below**
 
 ### Components tree
